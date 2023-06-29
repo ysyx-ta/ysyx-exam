@@ -60,6 +60,7 @@ git commit -m "add exam file"
 
 ## 上传你的仓库
 
+* 为了方便注入 bug,节约大家的时间，请修改相关 .gitignore 文件，将 navy-apps/apps/pal/repo 也上传到自己的在线合库(含 repo/data)，考核通过后可将这部分从在线仓库中删除。
 * 请你将ysyx-workbench上传到一个公开的仓库，仓库增加doc文件夹，上传nemu和npc运行PAL通过的截图以及time.txt, 截图名：ysyx学号-nemu, ysyx学号-npc, time.txt标明nemu和npc分别从开始运行PAL至满足考核正确性要求（见后续小节“正确性判定”）所需时间，精确到分，如果所需时间过长，请自行优化以提升通过考核的机会。
 * nemu运行截图要求一半屏幕是libminiSDL部分代码，一半是运行过程；npc截图要求一半屏幕是difftest部分代码，另一半是运行过程。
 * **关闭所有的trace和波形**
